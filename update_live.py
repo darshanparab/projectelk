@@ -9,7 +9,7 @@ dbname='VM'
 dbuser='root'
 dbpass='p@55w0rd'
 nessusfile='parsed.csv'
-errorfile='VMDB_error.log'
+errorfile='live_error.log'
 
 #Open database connection
 db=MySQLdb.connect(dbserver,dbuser,dbpass,dbname)
